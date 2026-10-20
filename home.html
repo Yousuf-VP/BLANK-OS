@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset='UTF-8'>
+      <meta name='viewport' content='width= device-width, initial-scale= 1.0'>
+      <link rel='stylesheet' href='./home.css'>
+      <title>BLANK OS</title>
+      <link rel="icon" href="./icon.png" type="image/png">
+      <link rel="shortcut icon" href="./icon.png" type="image/png">
+  </head>
+  <body>
+    <div id= 'lockscreen'>
+      <h1 id= 'clock'></h1>
+      <h1 id= 'startinglogo'>BLANK OS</h1>
+      <button id= 'startbtn' onclick = 'home()'>Start</button>
+
+    </div>
+    <div id= 'homescreen'>
+      
+      <div id= 'appholder'>
+        <button class= 'app' onclick = 'test()'> 
+          <img src = './claculator.png' alt= 'claculator'>
+        </button>
+        
+        <div id= 'window'>
+         <div id= 'windowtop'>
+           
+           <button id= 'close' onclick = 'close()'>×</button>
+           <!--<button id= 'full' onclick = 'full()'>▢</button>-->
+         </div>
+         <div id= 'windowbody'>
+           <div id= 'content'>
+           </div>
+         </div>
+        </div>
+
+      </div>
+  
+      <div id= 'taskbar'>
+        <a href = './index.html'>
+          <img src= './restart.png' alt= 'restart' id = 'restart'>
+        </a>
+      </div>
+    </div>
+
+    
+      
+    <script src= "home.js"></script>
+      
+  </body>
+
+
+
+
+
+</html>

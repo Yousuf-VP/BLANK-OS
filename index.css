@@ -1,0 +1,52 @@
+body {
+  background: black;
+  min-height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  
+
+}
+h1 {
+  color: black;
+  font-size: 3em;
+  animation: logoglow 4s infinite alternate;
+  margin: 5px;
+  
+}
+p {
+  color: white;
+  font-family: Arial;
+  font-size: 10px;
+ 
+    
+}
+@keyframes logoglow {
+  1% {text-shadow: 0px 0px 1px white;}
+  5% {text-shadow: 0px 0px 1px white;}
+  10%{text-shadow: 0px 0px 1px white;}
+  20% {text-shadow: 0px 0px 6px white;}
+  50%{text-shadow: 0px 0px 6px white;}
+  70% {text-shadow: 0px 0px 5px white;}
+  100%{text-shadow: 1px 1px 2px white;}
+
+}
+.main {
+  color: white;
+  display: flex;
+  justify-self: center;
+  margin-bottom: 50px;
+  margin-top: 10px;
+  font-family: Lucida Console;
+  /*lucida console, tahoma, trebuchet ms, futura*/
+
+}
+#load {
+  width: auto;
+  font-family: Courier New;
+  color: black;
+  font-family: Arial;
+
+}
