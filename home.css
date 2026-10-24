@@ -65,7 +65,7 @@ body {
   z-index: -1;
 }
 #taskbar {
- background-image: url('./wallapaper.png');
+ background-image: url('./wallaper.png');
  border-top: 5px solid black;
  width: 100%;
  position: fixed;
