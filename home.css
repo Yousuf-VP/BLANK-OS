@@ -118,6 +118,7 @@ body {
 #window {
   display: none;
   justify-content: center;
+  position: absolute;
 }
 .app {
   width: 5vh;
