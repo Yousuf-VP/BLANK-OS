@@ -65,8 +65,7 @@ body {
   z-index: -1;
 }
 #taskbar {
- background-image: linear-gradient(to right, #4500ff, #b700ff);
- min-height: 8vh;
+ background-image: url('./wallapaper.png');
  border-top: 5px solid black;
  width: 100%;
  position: fixed;
