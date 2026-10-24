@@ -103,7 +103,6 @@ body {
   display: flex;
   background: white;
   border: 2px solid black; 
-  position: absolute;
 }
 #windowtop {
   background: gray;
@@ -112,7 +111,6 @@ body {
   justify-content: end;
   width: 80%;
   border: 2px solid black;
-  position: absolute;
   
 
 
