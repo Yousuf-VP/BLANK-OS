@@ -103,6 +103,7 @@ body {
   display: flex;
   background: white;
   border: 2px solid black; 
+  position: absolute;
 }
 #windowtop {
   background: gray;
@@ -111,6 +112,7 @@ body {
   justify-content: end;
   width: 80%;
   border: 2px solid black;
+  position: absolute;
   
 
 
@@ -118,7 +120,7 @@ body {
 #window {
   display: none;
   justify-content: center;
-  position: absolute;
+  
 }
 .app {
   width: 5vh;
