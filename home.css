@@ -80,7 +80,7 @@ body {
   width: 100%;
   background-image: linear-gradient( to left, red, blue);
   min-height: 92vh;
-  opacity: 0.1;
+  opacity: 0;
   padding: 5%;
 }
 #restart {
