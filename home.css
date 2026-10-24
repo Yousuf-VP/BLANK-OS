@@ -80,9 +80,9 @@ body {
 }
 #appholder {
   width: 100%;
-  background-image: linear-gradient( to left, red, blue);
+  background-image: transparent;
   min-height: 92vh;
-  opacity: 0;
+  opacity: 1;
   padding: 5%;
 }
 #restart {
